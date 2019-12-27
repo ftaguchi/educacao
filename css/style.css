@@ -1,0 +1,37 @@
+
+body{
+    background-color: #111;
+    background-image: url("../img/Background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: center;
+}
+
+/*Login*/
+.centerLogin{
+    width: 700px;
+    background-color: #f7f7f7;
+    padding:10px;
+    margin:0 auto;
+    margin-top: 14px;
+}
+
+.logoLogin{
+    background-color: #eee;
+    border-bottom: 3px solid #111;
+}
+
+.logoLogin img{
+    margin: 20px;
+    border:none;
+}
+.ar{
+    text-align: right;
+
+}
+.ac{
+    text-align: center;
+}
+.upper{
+    text-decoration: uppercase;
+}
