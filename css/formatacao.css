@@ -1,3 +1,9 @@
 .formatacao_titulo{
-    color:"red";
+    color:black;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.formatacao_campos{
+    font-weight: bold;;
 }
