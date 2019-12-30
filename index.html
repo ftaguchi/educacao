@@ -3,12 +3,11 @@
 
   <!--Cabeçalho !-->
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"/>
     <title> Seletivo para Professores 2020 </title>
-    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
     <script src="js/jquery-3.2.0.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/cadastrar.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </head>
 
   <body>
@@ -94,7 +93,7 @@
               <!-- Linha telefones e e-mail !-->
               <div class="row">
                 <div class="col-md-4">
-                  <p class="m-0 text-left">Telefone Residencial:</label>
+                  <p class="m-0 text-left">Telefone Residencial:</p>
                   <input type="number" name="telefone" class="form-control mb-4" required>  
                 </div>
                 <div class="col-md-4">
@@ -102,7 +101,7 @@
                   <input type="number" name="celular" class="form-control mb-4" required>  
                 </div>
                 <div class="col-md-4">
-                  <p class="m-0 text-left">E-Mail:</label>
+                  <p class="m-0 text-left">E-Mail:</p>
                   <input type="email" name="email" class="form-control mb-4" required>    
                 </div>
               </div>
@@ -110,7 +109,7 @@
               <!-- Linha cep, endereço e número !-->
               <div class="row">
                 <div class="col-md-2">
-                  <p class="m-0 text-left">CEP:</label>
+                  <p class="m-0 text-left">CEP:</p>
                   <input type="text" name="cep" class="form-control mb-4" placeholder="00000-000" maxlength="9" required>  
                 </div>
                 <div class="col-md-8">
@@ -118,7 +117,7 @@
                   <input type="text" name="endereco" class="form-control mb-4" required>  
                 </div>
                 <div class="col-md-2">
-                  <p class="m-0 text-left">Número:</label>
+                  <p class="m-0 text-left">Número:</p>
                   <input type="number" name="numero" class="form-control mb-4" required>  
                 </div>
               </div>
@@ -126,7 +125,7 @@
               <!-- Linha bairro, cidade e estado !-->
               <div class="row">
                 <div class="col-md-4">
-                  <p class="m-0 text-left">Bairro:</label>
+                  <p class="m-0 text-left">Bairro:</p>
                   <input type="text" name="bairro" class="form-control mb-4" required>  
                 </div>
                 <div class="col-md-6">
@@ -134,7 +133,7 @@
                   <input type="text" name="cidade" class="form-control mb-4" required>  
                 </div>
                 <div class="col-md-2">
-                  <p class="m-0 text-left">Estado:</label>
+                  <p class="m-0 text-left">Estado:</p>
                   <input type="text" name="estado" class="form-control mb-4" required>  
                 </div>
               </div>
@@ -142,7 +141,7 @@
               <!-- Linha função / cargo !-->
               <div class="row">
                 <div class="col-md-12">
-                  <p class="m-0 text-left">Função / Requisito Básico:</label>
+                  <p class="m-0 text-left">Função / Requisito Básico:</p>
                     <select name="cargo" class="form-control input-sm insert">
                       <option value="">Selecione</option>
                       <option value="pedagogia)">PROFESSOR DE DISCIPLINAS PEDAGÓGICAS - (LICENCIATURA PLENA EM PEDAGOGIA)</option>
@@ -162,9 +161,9 @@
               </div>
 
               <div class="row">
-                <div class="p-5 form-group col-md-12">
-                  <button type="button" class="btn btn-primary pull-right" id="cadastrar">Enviar Formulário</button>
-                  <button type="button" class="btn btn-warning pull-right" id="limpar">Limpar</button>
+                <div class="m-4 p-5 form-group col-md-12">
+                  <button type="submit" class="btn btn-primary" id="cadastrar">Enviar Formulário</button>
+                  <button type="reset" class="btn btn-warning" id="limpar">Limpar</button>
                 </div>
               </div>
             </div>
